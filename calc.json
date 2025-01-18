@@ -1,0 +1,22 @@
+{
+    "BA2377D4": {
+        "energyAll": 2669203,
+        "energySolar": 1195525,
+        "energyExt": 1473678
+    },
+    "AAF98679": {
+        "energyAll": 1371467,
+        "energySolar": 838566,
+        "energyExt": 532901
+    },
+    "3A1D73D4": {
+        "energyAll": 16281,
+        "energySolar": 20,
+        "energyExt": 16261
+    },
+    "": {
+        "energyAll": 0,
+        "energySolar": 0,
+        "energyExt": 0
+    }
+}

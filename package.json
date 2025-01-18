@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@types/node": "^22.10.7"
+  },
+  "dependencies": {
+    "csv-writer": "^1.6.0"
+  }
+}
