@@ -1,22 +1,22 @@
 {
     "BA2377D4": {
-        "energyAll": 2669203,
-        "energySolar": 1195525,
-        "energyExt": 1473678
+        "energyAll": 3080618,
+        "energySolar": 1228751,
+        "energyExt": 1851867
     },
     "AAF98679": {
-        "energyAll": 1371467,
-        "energySolar": 838566,
-        "energyExt": 532901
+        "energyAll": 1545779,
+        "energySolar": 838730,
+        "energyExt": 707049
+    },
+    "": {
+        "energyAll": 60915,
+        "energySolar": 2,
+        "energyExt": 60913
     },
     "3A1D73D4": {
         "energyAll": 16281,
         "energySolar": 20,
         "energyExt": 16261
-    },
-    "": {
-        "energyAll": 0,
-        "energySolar": 0,
-        "energyExt": 0
     }
 }

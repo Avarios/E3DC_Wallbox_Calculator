@@ -76,7 +76,10 @@ const main = async () => {
     append: false,
     header: ["card", "energyAll", "energySolar", "energyExt", "id", "date"],
   });
-  csvWriter.writeRecords(chargeData);
+
+  const filteredData = chargeData;
+
+  csvWriter.writeRecords(filteredData);
 
   const energySummaryByCard: {
     [card: string]: {
@@ -84,8 +87,7 @@ const main = async () => {
       energySolar: number;
       energyExt: number;
     };
-  } = chargeData
-    .filter((y) => y.start.getFullYear() === 2024)
+  } = filteredData
     .reduce((acc, data) => {
       if (!acc[data.card]) {
         acc[data.card] = { energyAll: 0, energySolar: 0, energyExt: 0 };
